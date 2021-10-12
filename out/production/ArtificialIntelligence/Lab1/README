@@ -1,0 +1,9 @@
+Build on department linux machines:
+$javac Lab1/Main.java
+
+Run algorithm:
+$java Lab1.Main [-v] -start <start-node> -goal <start-node> -alg <alg> <graph-file>
+
+For example:
+$java Lab1.Main -v -start S -goal G -alg ASTAR ./AIlab1/ex2.txt
+
