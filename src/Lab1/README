@@ -7,3 +7,4 @@ $java Lab1.Main [-v] -start <start-node> -goal <start-node> -alg <alg> <graph-fi
 For example:
 $java Lab1.Main -v -start S -goal G -alg ASTAR ./Lab1/ex2.txt
 
+

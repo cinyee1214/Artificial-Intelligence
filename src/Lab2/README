@@ -1,0 +1,9 @@
+Build on department linux machines:
+$javac Lab2/Main.java
+
+Run algorithm:
+$java Lab2.Main [-v] -mode <mode> <input-file>
+
+For example:
+$java Lab2.Main -v -mode solver ./Lab2/BNF1.txt
+
