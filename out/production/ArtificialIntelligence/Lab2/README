@@ -7,4 +7,3 @@ $java Lab2.Main [-v] -mode <mode> <input-file>
 For example:
 $java Lab2.Main -v -mode solver ./Lab2/BNF1.txt
 
-

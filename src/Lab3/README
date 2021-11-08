@@ -1,0 +1,16 @@
+Build on department linux machines:
+$javac Lab3/Main.java
+
+Run algorithm:
+$java Lab3.Main [-df <df>] [-min] [-tol <tol>] [-iter <iter>] <input-file>
+
+For example:
+$java Lab3.Main ./Lab3/test1.txt
+
+java17:
+$java Main.java test1.txt
+$java Main.java test2.txt
+$java Main.java -min test3.txt
+$java Main.java test4.txt
+$java Main.java test5.txt
+$java Main.java -df .9 test6.txt
