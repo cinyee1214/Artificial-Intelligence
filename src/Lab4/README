@@ -9,6 +9,7 @@ $java Lab4.Main -mode kmeans [-d <e2/manh>] -data <input-file> <centroids>
 For example:
 $java Lab4.Main -mode knn -k 3 -d e2 -train ./Lab4/knn1_train.txt -test ./Lab4/knn1_test.txt
 $java Lab4.Main -mode kmeans -d e2 -data ./Lab4/kmeans1.txt 0,0 200,200 500,500
+$java Lab4.Main -mode kmeans -d e2 -data ./Lab4/kmeans2.txt 0,0,0 200,200,200 500,500,500
 
 java17:
 $java Main.java -mode knn -d manh -unitw -train knn1_train.txt -test knn1_test.txt

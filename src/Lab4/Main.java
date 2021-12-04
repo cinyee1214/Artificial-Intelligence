@@ -135,6 +135,11 @@ class KNN {
     }
 
     private void print() {
+        if (k > train.size()) {
+            System.out.println("Please input the valid train file: k should be less than or equal the size of train points.");
+            return;
+        }
+
         for (Point point : test) {
             String predictLabel = predict(point);
             System.out.format("want=%s got=%s\n", point.label, predictLabel);
