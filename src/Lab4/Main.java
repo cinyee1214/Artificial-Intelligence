@@ -9,7 +9,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         String mode = null;
-        int k = 3;
+        int k = 3, km = 0;
         String distance = "e2";
         boolean unitw = false;
         String train_file = null;
@@ -44,6 +44,12 @@ public class Main {
                 default:
                     if (mode != null && mode.equals("kmeans")) {
                         String[] arr = args[i].split(",");
+                        if (km == 0) {
+                            km = arr.length;
+                        } else if (km != arr.length) {
+                            System.out.println("Invalid centroids.");
+                            return;
+                        }
                         List<Double> list = new ArrayList<>();
                         for (String s : arr) {
                             list.add(Double.parseDouble(s));
